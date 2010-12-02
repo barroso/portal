@@ -1,0 +1,213 @@
+html {
+  background: #C5DAFD url('images/bg.gif') repeat-y center;
+}
+body {
+  margin: 0 !important;
+  font-family: Tahoma, sans-serif;
+  font-size: 12px;
+}
+img {
+  border: none;
+}
+a {
+  text-decoration: none;
+  color: #0066CC;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+.block { display: block; }
+.left { float: left; }
+.right { float: right; }
+.center { text-align: center; }
+.bold { font-weight: bold; }
+.matafloat { clear: both; }
+
+#corpo {
+  margin: 0 auto;
+  width: 1000px;
+}
+
+#login {
+  margin: 0 auto;
+  margin-left: 190px;
+  padding-right: 20px;
+  width: 700px;
+  height: 45px;
+  background: #FFF;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  -moz-border-radius-bottomleft: 20px;
+  -moz-border-radius-bottomright: 20px;
+  -webkit-border-bottom-left-radius: 20px;
+  -webkit-border-bottom-right-radius: 20px;
+}
+
+#icones {
+  float: left;
+  margin: 0 auto;
+  margin-right: 20px;
+  padding: 5px;
+  width: 190px;
+  height: 35px;
+  text-align: center;
+  background: #006295;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  -moz-border-radius-bottomleft: 20px;
+  -moz-border-radius-bottomright: 20px;
+  -webkit-border-bottom-left-radius: 20px;
+  -webkit-border-bottom-right-radius: 20px;
+}
+#icones a:hover img {
+  margin-top: -5px;
+  margin-bottom: 5px;
+}
+
+#usuario {
+  font-size: 12px;
+  line-height: 45px;
+}
+#usuario button {
+  float: right;
+  margin: 10px 0;
+  padding: 1px 7px;
+  font-size: 11px;
+  font-weight: bold;
+  color: #FFF;
+  cursor: pointer;
+  background: url('images/menuBg.gif') repeat-x;
+  border-top: 1px solid #EAA;
+  border-left: 1px solid #EAA;
+  border-bottom: 2px solid #600;
+  border-right: 2px solid #600;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+
+#logo {
+  float: left;
+  margin-top: 20px;
+}
+
+h1.title {
+  padding: 12px 20px;
+  height: 66px;
+  font-size: 24px;
+  text-shadow: 2px 2px 2px #400;
+  -moz-text-shadow: 2px 2px 2px #400;
+  -webkit-text-shadow: 2px 2px 2px #400;
+  color: #FFF;
+  background: url('images/tituloBg.gif') repeat-x;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+}
+
+#conteudo {
+  margin-top: -55px;
+  padding: 20px;
+  background: #FFF;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+}
+
+#base {
+  clear: both;
+  font-size: 11px;
+  text-align: center;
+}
+#base ul.menu {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  list-style: none;
+}
+#base ul.menu li {
+  display: inline;
+  padding: 0 20px;
+  font-weight: bold;
+  border-left: 2px solid #0066CC;
+}
+#base ul.menu li.first {
+  border-left: none;
+}
+
+#corpo ul.menu {
+  float: left;
+  margin: 0;
+  margin-top: 70px;
+  margin-left: 100px;
+  padding: 0 10px;
+  width: 690px;
+  height: 30px;
+  background: url('images/menuBg.gif') repeat-x;
+  border-radius: 8px;
+  box-shadow: 0 0 4px #000;
+  -moz-border-radius: 8px;
+  -moz-box-shadow: 0 0 4px #000;
+  -webkit-border-radius: 8px;
+  -webkit-box-shadow: 0 0 4px #000;
+}
+#corpo ul.menu li {
+  float: left;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+#corpo ul.menu li a {
+  float: left;
+  display: block;
+  padding: 0 50px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #FFF;
+  line-height: 30px;
+  border-left: 2px solid #A2091A;
+}
+#corpo ul.menu li:first-child a {
+  border: none;
+}
+#corpo ul.menu li a:hover {
+  text-decoration: none;
+  background: #D00;
+}
+
+/* FORMs */
+input[type='text'] {
+  margin: 0;
+  padding: 0 5px;
+  height: 25px;
+  border: 1px solid #DDD;
+  border-left: none;
+  border-top: 2px solid #CCC;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  -moz-border-radius-topright: 20px;
+  -moz-border-radius-bottomright: 20px;
+  -webkit-border-top-right-radius: 20px;
+  -webkit-border-bottom-right-radius: 20px;
+}
+label {
+  float: left;
+  display: block;
+  margin: 0;
+  padding: 0 5px;
+  height: 25px;
+  line-height: 25px;
+  font-weight: bold;
+  background: #EFF6F9;
+  border: 1px solid #DDD;
+  border-right: none;
+  border-top: 2px solid #CCC;
+  border-left: 2px solid #CCC;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  -moz-border-radius-topleft: 20px;
+  -moz-border-radius-bottomleft: 20px;
+  -webkit-border-top-left-radius: 20px;
+  -webkit-border-bottom-left-radius: 20px;
+}

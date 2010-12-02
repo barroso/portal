@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+	<usuario id="10" login="admin" senha="secreto" />
+	<usuario id="40" login="tibira" senha="1234" email="tibira.botto@gmail.com" />
+</dataset>
